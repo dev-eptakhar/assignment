@@ -5,7 +5,7 @@ function feetToMile(feet) {
     return mile;
 }
 
-let totalMile = feetToMile(/*UserInput*/);
+let totalMile = feetToMile(/*UserInput*/).toFixed(5);
 let summeryOfmile= "Total :" + " " + totalMile+ " " + "mile" ;
 console.log(summeryOfmile);
 
